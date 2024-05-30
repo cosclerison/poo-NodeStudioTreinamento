@@ -1,40 +1,30 @@
 <?php
 
 /**
- * [Aula - 02 - Classes, Atributos e Métodos]
- */
-
-// class Pessoa {
-//     public $idade;
-//     public $name;
-    
-//     public function Falar($name, $idade)
-//     {
-//         // $name = 'Clerison Oliveira';
-//         // $idade = 40;
-//         echo "Nome: " . $name . "</br> Idade: " . $idade;
-//     }  
-    
-// }
-
-// $clerison = new Pessoa();
-
-// $clerison->name = "Clerison Oliveira Da Silva";
-// $clerison->idade = 40;
-// $clerison->Falar("Clerison","40");
-
-// echo $clerison->name;
-
-// var_dump($clerison);
-
-/**
- * [Aula - 03 - Getters and Setters]
+ * [Aula - 04 - Construtor]
  */
 
  class Login {
+    private $name;
     private $email;
     private $senha;
 
+    // Torna obrigatorio os dados na construção da classe
+    public function __construct($name, $email, $senha)
+    {
+        $this->name  = $name;
+        $this->setEmail($email);
+        $this->setSenha($senha);
+    }
+
+    public function getName() {
+        return $this->name;
+    }
+
+    public function setName($n){
+        $this->name = $n;
+    }  
+    
     public function getEmail() {
         return $this->email;
     }
@@ -62,13 +52,10 @@
     }
  }
 
- $logar = new Login();
-
-//  $logar->email = "teste@teste.com.br";
-//  $logar->senha = "teste000";
-$logar->setEmail("teste@teste.com");
-$logar->setSenha("teste");
+ $logar = new Login("clerison", "teste@teste.com", "teste");
 
  $logar->Logar();
 
- echo "</br> Acessado por: </br> Email: " . $logar->getEmail();
+ echo "<br> Acessado por: " . htmlspecialchars($logar->getName()) . 
+     " E-mail: " . htmlspecialchars($logar->getEmail());
+
