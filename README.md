@@ -11,20 +11,22 @@
 
 # LISTA DAS AULAS
 
-## 01 - introdução
+## 01 - introdução (CONCLUIDO)
 
-## 02 - Classes, Atributos e Métodos
+## 02 - Classes, Atributos e Métodos (CONCLUIDO)
 
-## 03 - Getters and Setters
+## 03 - Getters and Setters (CONCLUIDO)
 
-## 04 - Construtor
+## 04 - Construtor (CONCLUIDO)
 
-## 05 - Herança
+## 05 - Herança (CONCLUIDO)
 
-## 06 - Modificadores de Acesso 01
+## 06 - Modificadores de Acesso 01 (CONCLUIDO)
 
-## 07 - Modificadores de Acesso 02
+## 07 - Modificadores de Acesso 02 (CONCLUIDO)
 
-## 08 - Abstração
+## 08 - Abstração (CONCLUIDO)
 
-## 09 - Constantes, Self e Parent
+## 09 - Constantes, Self e Parent (CONCLUIDO)
+
+## 10 - Métodos e Atributos Estáticos ()
