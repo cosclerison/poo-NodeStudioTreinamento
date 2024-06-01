@@ -8,7 +8,7 @@
  */
 
 /**
- * [Aula - 06 - Modificadores de Acesso]
+ * [Aula - 06 - Modificadores de Acesso 01]
  * 
  * PUBLIC = Fará  com que não haja  ocultação nenhuma da função,
  *  toda propriedade ou método declarado como PUBLIC serão acessíveis 
