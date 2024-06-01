@@ -44,7 +44,12 @@
 ## 11 - Polimorfismo (CONCLUÍDO)
     Polimorfismo é a capacidade de objetos de diferentes classes serem tratados de forma intercambiável através de uma interface comum. Isso permite que métodos com o mesmo nome em diferentes classes executem ações diferentes, dependendo do objeto que os invoca. Polimorfismo promove flexibilidade e a reutilização de código, facilitando a extensão e manutenção do sistema.
 
+## 12 - Interfaces (CONCLUÍDO)
+    Interfaces são contratos que especificam um conjunto de métodos que uma classe deve implementar, sem fornecer a implementação desses métodos. Em linguagens como Java, interfaces são uma parte formal da linguagem.
 
+    As interfaces são usadas para garantir que diferentes classes tenham uma estrutura comum, promovendo a interoperabilidade e a consistência entre diferentes partes de um sistema. Uma interface define os   métodos que devem ser implementados pelas classes que a utilizam, garantindo que essas classes compartilhem um comportamento comum.
+
+## 13 - ()
 
 
 
