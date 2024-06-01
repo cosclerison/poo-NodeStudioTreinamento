@@ -49,8 +49,12 @@
 
     As interfaces são usadas para garantir que diferentes classes tenham uma estrutura comum, promovendo a interoperabilidade e a consistência entre diferentes partes de um sistema. Uma interface define os   métodos que devem ser implementados pelas classes que a utilizam, garantindo que essas classes compartilhem um comportamento comum.
 
-## 13 - ()
+## 13 - Namespaces (CONCLUÍDO)
+    Namespaces (ou espaços de nomes) são um conceito fundamental em PHP e muitas outras linguagens de programação. Eles fornecem um escopo para os identificadores (nomes de classes, funções, constantes, etc.) e ajudam a organizar e evitar conflitos de nomes. Namespaces permitem que desenvolvedores organizem o código de forma modular e evitem colisões de nomes, especialmente em projetos grandes ou quando usando bibliotecas de terceiros.
 
+    Utilizando Namespaces em PHP
+    Em PHP, namespaces são declarados usando a palavra-chave namespace no início do arquivo, antes de qualquer outra instrução que não seja um declare.
 
+## 14 - (CONCLUÍDO)
 
 
