@@ -4,7 +4,7 @@
  * [Aula - 03 - Getters and Setters]
  */
 
- class Login {
+ class Acessar {
     private $email;
     private $senha;
 
@@ -35,7 +35,7 @@
     }
  }
 
- $logar = new Login();
+ $logar = new Acessar();
 
 //  $logar->email = "teste@teste.com.br";
 //  $logar->senha = "teste000";
