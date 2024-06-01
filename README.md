@@ -55,9 +55,31 @@
     Utilizando Namespaces em PHP
     Em PHP, namespaces são declarados usando a palavra-chave namespace no início do arquivo, antes de qualquer outra instrução que não seja um declare.
 
-## 14 - Referência e Clonagem de Objetos(CONCLUÍDO)
+## 14 - Referência e Clonagem de Objetos (CONCLUÍDO)
     Em PHP, entender a diferença entre referência e clonagem de objetos é crucial para gerenciar como os objetos são manipulados na memória. Isso pode afetar o comportamento e o desempenho de suas aplicações.
 
     Referência de Objetos
     Em PHP, quando você atribui um objeto a uma variável ou passa um objeto para uma função, você está manipulando uma referência para o objeto, e não uma cópia dele. Isso significa que qualquer alteração feita no objeto através de uma variável afetará todas as outras variáveis que referenciam o mesmo objeto.
 
+## 15 - Tratamento de Exceções (CONCLUÍDO)
+    O tratamento de exceções em PHP é uma técnica utilizada para gerenciar erros e condições excepcionais de forma controlada. Em vez de interromper a execução do script, as exceções permitem que o programa capture e lide com esses problemas, oferecendo uma maneira estruturada de gerenciar erros.
+
+    - Conceitos Básicos
+    Exceção: É um evento anômalo que pode ocorrer durante a execução de um programa e que interrompe o fluxo normal de execução. Em PHP, exceções são objetos que herdam da classe Exception.
+    
+    Try-Catch: Estrutura que permite capturar e tratar exceções. O código que pode lançar uma exceção é colocado dentro do bloco try, e o bloco catch contém o código que deve ser executado se uma exceção for lançada.
+    
+    Throw: Utilizado para lançar uma exceção manualmente.
+
+## 16 - (CONCLUÍDO)
+## 17 - (CONCLUÍDO)
+## 18 - (CONCLUÍDO)
+## 19 - (CONCLUÍDO)
+## 20 - (CONCLUÍDO)
+## 21 - (CONCLUÍDO)
+## 22 - (CONCLUÍDO)
+## 23 - (CONCLUÍDO)
+## 24 - (CONCLUÍDO)
+## 25 - (CONCLUÍDO)
+## 26 - (CONCLUÍDO)
+## 27 - (CONCLUÍDO)
