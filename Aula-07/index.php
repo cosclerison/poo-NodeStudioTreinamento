@@ -28,34 +28,19 @@
     public $cor;
     public $ano;
 
-    public function Andar()
+    private function Andar()
     {
         echo " Andou ";
     }
 
-    public function Parar()
+    protected function Parar()
     {
         echo " Parou ";
     }
 
-    public function getModelo()
+    public function verificarMovimento()
     {
-        return $this->modelo;
-    }
-
-    public function setModelo($m)
-    {
-        return $this->modelo = $m;
-    }
-    
-    public function getMarca()
-    {
-        return $this->marca;
-    }
-
-    public function setMarca($m)
-    {
-        return $this->marca = $m;
+        $this->Andar();
     }
 
  } 
@@ -67,31 +52,13 @@
         echo "Limpando 3x...";
     }
 
-    public function getModelo()
+    public function verificarAcao()
     {
-        return $this->modelo;
+        $this->Parar();
     }
-
-    public function setModelo($m)
-    {
-        return $this->modelo = $m;
-    }
-
- } 
- 
- class moto extends Veiculo {
-
-    public function Bagageiro()
-    {
-        echo "Bagageiro livre";
-    }
-
  }
 
-$veiculo = new Veiculo();
-$veiculo->setModelo('UNO');
-$veiculo->setMarca('FIAT');
-echo $veiculo->getModelo();
-
-var_dump($veiculo);
+$carro = new Carro();
+$carro->verificarMovimento();
+$carro->verificarAcao();
 
