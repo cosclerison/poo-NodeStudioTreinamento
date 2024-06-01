@@ -55,6 +55,9 @@
     Utilizando Namespaces em PHP
     Em PHP, namespaces são declarados usando a palavra-chave namespace no início do arquivo, antes de qualquer outra instrução que não seja um declare.
 
-## 14 - (CONCLUÍDO)
+## 14 - Referência e Clonagem de Objetos(CONCLUÍDO)
+    Em PHP, entender a diferença entre referência e clonagem de objetos é crucial para gerenciar como os objetos são manipulados na memória. Isso pode afetar o comportamento e o desempenho de suas aplicações.
 
+    Referência de Objetos
+    Em PHP, quando você atribui um objeto a uma variável ou passa um objeto para uma função, você está manipulando uma referência para o objeto, e não uma cópia dele. Isso significa que qualquer alteração feita no objeto através de uma variável afetará todas as outras variáveis que referenciam o mesmo objeto.
 
