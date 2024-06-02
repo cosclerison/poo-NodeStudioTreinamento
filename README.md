@@ -71,7 +71,13 @@
     
     Throw: Utilizado para lançar uma exceção manualmente.
 
-## 16 - (CONCLUÍDO)
+## 16 - Relação entre os objetos (Associação) (CONCLUÍDO)
+    A associação é um dos tipos de relacionamento entre objetos em programação orientada a objetos (OOP). Ela descreve como os objetos interagem uns com os outros e pode ser classificada em diferentes tipos, dependendo da natureza do relacionamento. Em PHP, a associação é implementada através da criação de instâncias de classes dentro de outras classes.
+
+    Tipos de Associação
+    Associação Simples (Associação):
+    É um relacionamento onde um objeto é ligado a outro, mas ambos têm ciclos de vida independentes. Por exemplo, um "Cliente" pode estar associado a um "Endereço".
+    
 ## 17 - (CONCLUÍDO)
 ## 18 - (CONCLUÍDO)
 ## 19 - (CONCLUÍDO)
