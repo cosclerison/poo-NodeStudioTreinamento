@@ -89,8 +89,18 @@
     Exemplo de Agregação em PHP
     Cenário: Departamento e Funcionários
     Vamos considerar um cenário onde um departamento pode ter vários funcionários, mas os funcionários podem existir independentemente do departamento. Esse é um exemplo clássico de agregação.
+
+## 18 - Relação entre os objetos (Composição) (CONCLUÍDO)
+    A composição é um tipo de relacionamento entre objetos em programação orientada a objetos (OOP) onde um objeto é composto por outros objetos, mas, ao contrário da agregação, os objetos componentes não podem existir independentemente do objeto composto. Em PHP, a composição é implementada criando instâncias de classes dentro de outras classes, onde os componentes fazem parte do ciclo de vida do objeto que os contém.
+
+    Características da Composição
+    Composição Forte: Os objetos componentes não podem existir sem o objeto composto.
+    Relação de Parte-Todo: Um objeto (o todo) é composto por outros objetos (as partes) que são destruídos junto com ele.
+    Dependência: As partes dependem completamente do ciclo de vida do todo.
+    Exemplo de Composição em PHP
+    Cenário: Carro e Componentes (Motor, Rodas)
+    Vamos considerar um cenário onde um carro é composto por um motor e várias rodas. Esses componentes não têm significado fora do contexto do carro e são destruídos junto com o carro.
     
-## 18 - (CONCLUÍDO)
 ## 19 - (CONCLUÍDO)
 ## 20 - (CONCLUÍDO)
 ## 21 - (CONCLUÍDO)
