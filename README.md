@@ -100,8 +100,28 @@
     Exemplo de Composição em PHP
     Cenário: Carro e Componentes (Motor, Rodas)
     Vamos considerar um cenário onde um carro é composto por um motor e várias rodas. Esses componentes não têm significado fora do contexto do carro e são destruídos junto com o carro.
-    
-## 19 - (CONCLUÍDO)
+
+## 19 - Métodos Mágicos (CONCLUÍDO)
+    Métodos mágicos em PHP são métodos especiais que têm um comportamento predefinido associado a eles. Eles são chamados automaticamente em determinadas situações, dependendo do contexto no qual são usados. Esses métodos têm dois sublinhados duplos (__) como prefixo em seus nomes. Eles fornecem uma maneira conveniente de definir comportamentos personalizados para operações comuns em objetos, como acesso a propriedades, chamadas de métodos inexistentes, serializado e assim por diante.
+
+    Aqui estão alguns dos métodos mágicos mais comumente usados em PHP:
+
+    __construct(): Este método é chamado automaticamente quando um objeto é instanciado. É usado para inicializar o objeto e configurar seu estado inicial.
+
+    __destruct(): É chamado automaticamente quando um objeto é destruído ou quando o script termina. É usado para liberar recursos ou executar tarefas de limpeza.
+
+    __get($propriedade): Chamado automaticamente quando o código tenta acessar uma propriedade inacessível ou não existente de um objeto. É útil para criar propriedades virtuais ou para implementar lógica personalizada de acesso.
+
+    __set($propriedade, $valor): Chamado automaticamente quando o código tenta definir o valor de uma propriedade inacessível ou não existente de um objeto. É útil para validar ou modificar valores atribuídos a propriedades.
+
+    __call($método, $argumentos): Invocado automaticamente quando o código tenta chamar um método inacessível ou não existente de um objeto. É útil para implementar lógica personalizada de chamada de método ou para encaminhar chamadas de método para outros objetos.
+
+    __toString(): Chamado automaticamente quando um objeto é convertido em uma string, geralmente usando a função echo ou print. É usado para controlar como o objeto é representado como uma string.
+
+    __clone(): Invocado automaticamente quando um objeto é clonado usando a palavra-chave clone. É usado para realizar inicializações ou configurações especiais após a clonagem do objeto.
+
+    Esses são apenas alguns exemplos dos muitos métodos mágicos disponíveis em PHP. Eles permitem uma flexibilidade significativa no comportamento dos objetos e são amplamente utilizados em programação orientada a objetos em PHP.
+
 ## 20 - (CONCLUÍDO)
 ## 21 - (CONCLUÍDO)
 ## 22 - (CONCLUÍDO)
