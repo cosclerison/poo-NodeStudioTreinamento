@@ -4,9 +4,21 @@
  * [Aula - 24 - CRUD com PDO, Singleton e Autoload #1]
  */
 
- class Product {
-    private $name, $description;
+ namespace App\Model;
 
+ class Product {
+    private $id, $name, $description;
+
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    public function setId($id)
+    {
+        $this->id = $id;
+    }
+    
     public function getName()
     {
         return $this->name;

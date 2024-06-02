@@ -271,6 +271,10 @@
     4. CRUD
         Com o PDO, Singleton e Autoload configurados, você pode criar uma classe para lidar com as operações CRUD em seu banco de dados. Aqui está um exemplo simplificado de uma classe de CRUD:
     
-## 25 - (CONCLUÍDO)
+## 25 - CRUD com PDO, Singleton e Autoload #2 (CONCLUÍDO)
+
+    Executando arquivo composer.json
+    $ composer dump-autoload
+
 ## 26 - (CONCLUÍDO)
 ## 27 - (CONCLUÍDO)
