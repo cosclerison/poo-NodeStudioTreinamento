@@ -122,7 +122,31 @@
 
     Esses são apenas alguns exemplos dos muitos métodos mágicos disponíveis em PHP. Eles permitem uma flexibilidade significativa no comportamento dos objetos e são amplamente utilizados em programação orientada a objetos em PHP.
 
-## 20 - (CONCLUÍDO)
+## 20 - Composer (CONCLUÍDO)
+    Composer é uma ferramenta de gerenciamento de dependências para PHP, projetada para facilitar a instalação e o gerenciamento de bibliotecas de terceiros em projetos PHP. Ele resolve muitos problemas comuns relacionados ao gerenciamento de dependências, como instalação, atualização, autoloading e resolução de conflitos de versão.
+
+    Funcionalidades Principais  
+    Gerenciamento de Dependências: Composer permite declarar as dependências do seu projeto em um arquivo composer  .json. Ele resolve automaticamente as dependências e instala as bibliotecas necessárias.
+
+    Autoloading: Composer gera automaticamente um autoloader PSR-4 para carregar classes automaticamente conforme   necessário, evitando a necessidade de incluir manualmente arquivos de classes.
+
+    Atualização de Dependências: Composer permite atualizar facilmente todas as bibliotecas instaladas para suas v  ersões mais recentes compatíveis.
+
+    Instalação Global: Composer pode ser instalado globalmente no sistema, permitindo que seja usado em vários pro  jetos sem a necessidade de instalação repetida.
+
+    Resolução de Conflitos: Se houver conflitos de versão entre diferentes bibliotecas, Composer tentará resolvê-l  os instalando versões compatíveis de todas as dependências.
+
+    Uso Básico  
+    Instalação: Para instalar o Composer globalmente, basta baixar e executar o script de instalação fornecido no   site oficial. Depois, você pode usar o comando composer em qualquer lugar no seu sistema.
+
+    Criação do Arquivo composer.json: No diretório raiz do seu projeto, crie um arquivo composer.json e defina as   dependências do seu projeto.
+
+    Instalação de Dependências: Execute composer install para instalar todas as dependências definidas no arquivo   composer.json.
+
+    Autoloading: Use o autoloader gerado pelo Composer para carregar automaticamente as classes necessárias no seu   projeto.
+
+    Atualização de Dependências: Execute composer update para atualizar todas as bibliotecas instaladas para suas   versões mais recentes compatíveis.
+
 ## 21 - (CONCLUÍDO)
 ## 22 - (CONCLUÍDO)
 ## 23 - (CONCLUÍDO)
