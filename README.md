@@ -276,5 +276,7 @@
     Executando arquivo composer.json
     $ composer dump-autoload
 
-## 26 - (CONCLUÍDO)
-## 27 - (CONCLUÍDO)
+## 26 - CRUD com PDO, Singleton e Autoload #3 (CONCLUÍDO)
+## 27 - CRUD com PDO, Singleton e Autoload #4 (CONCLUÍDO)
+
+# FINAL
