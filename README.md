@@ -77,8 +77,19 @@
     Tipos de Associação
     Associação Simples (Associação):
     É um relacionamento onde um objeto é ligado a outro, mas ambos têm ciclos de vida independentes. Por exemplo, um "Cliente" pode estar associado a um "Endereço".
+
+## 17 - Relação entre os objetos (Agregação) (CONCLUÍDO)
+    A agregação é um dos tipos de relacionamento entre objetos em programação orientada a objetos (OOP). Ela descreve um relacionamento onde um objeto é composto por outros objetos, mas esses objetos componentes podem existir independentemente do objeto composto. Em PHP, a agregação é implementada criando instâncias de classes dentro de outras classes, onde os componentes agregados não dependem exclusivamente do ciclo de vida do objeto que os contém.
+
+    Características da Agregação
+    Composição Fraca: Diferente da composição, na agregação os objetos podem existir independentemente do objeto agregado.
+
+    Relação de Parte-Todo: Um objeto (o todo) é composto por outros objetos (as partes).
+    Independência: As partes podem existir fora do todo e podem ser compartilhadas com outros objetos.
+    Exemplo de Agregação em PHP
+    Cenário: Departamento e Funcionários
+    Vamos considerar um cenário onde um departamento pode ter vários funcionários, mas os funcionários podem existir independentemente do departamento. Esse é um exemplo clássico de agregação.
     
-## 17 - (CONCLUÍDO)
 ## 18 - (CONCLUÍDO)
 ## 19 - (CONCLUÍDO)
 ## 20 - (CONCLUÍDO)
