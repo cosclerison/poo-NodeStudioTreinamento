@@ -256,7 +256,21 @@
     Resumo
         O comando composer install é essencial para instalar e gerenciar dependências em projetos PHP usando o Composer. Ele simplifica o processo de instalação de bibliotecas de terceiros, garantindo que todas as dependências sejam instaladas de forma eficiente e consistente. Integrar o Composer ao fluxo de trabalho de desenvolvimento PHP é uma prática recomendada para criar e manter aplicativos PHP robustos e escaláveis.
 
-## 24 - (CONCLUÍDO)
+## 24 - CRUD com PDO, Singleton e Autoload #1 (CONCLUÍDO)
+    Para criar um CRUD (Create, Read, Update, Delete) com PDO, Singleton e Autoload em PHP, você precisará seguir alguns passos. Vou te guiar através dos conceitos e da implementação de cada um deles:
+
+    1. PDO (PHP Data Objects)
+        O PDO é uma extensão do PHP que fornece uma interface uniforme para acessar bancos de dados. Ele oferece suporte a diversos bancos de dados, como MySQL, PostgreSQL, SQLite, etc. Aqui está um exemplo básico de como você pode usar o PDO para conectar e executar consultas em um banco de dados MySQL:
+
+    2. Singleton
+        O padrão Singleton é um padrão de design que garante que uma classe tenha apenas uma instância e fornece um ponto global de acesso a essa instância. Aqui está um exemplo de implementação do Singleton:
+
+    3. Autoload
+        O autoload é um recurso do PHP que permite carregar automaticamente as classes quando são necessárias. Em vez de incluir manualmente todos os arquivos de classe em seu script, você pode usar uma função de autoload para carregar automaticamente as classes conforme necessário. Aqui está um exemplo de implementação de autoload simples:
+
+    4. CRUD
+        Com o PDO, Singleton e Autoload configurados, você pode criar uma classe para lidar com as operações CRUD em seu banco de dados. Aqui está um exemplo simplificado de uma classe de CRUD:
+    
 ## 25 - (CONCLUÍDO)
 ## 26 - (CONCLUÍDO)
 ## 27 - (CONCLUÍDO)
