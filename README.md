@@ -53,13 +53,13 @@
     Namespaces (ou espaços de nomes) são um conceito fundamental em PHP e muitas outras linguagens de programação. Eles fornecem um escopo para os identificadores (nomes de classes, funções, constantes, etc.) e ajudam a organizar e evitar conflitos de nomes. Namespaces permitem que desenvolvedores organizem o código de forma modular e evitem colisões de nomes, especialmente em projetos grandes ou quando usando bibliotecas de terceiros.
 
     Utilizando Namespaces em PHP
-    Em PHP, namespaces são declarados usando a palavra-chave namespace no início do arquivo, antes de qualquer outra instrução que não seja um declare.
+        Em PHP, namespaces são declarados usando a palavra-chave namespace no início do arquivo, antes de qualquer outra instrução que não seja um declare.
 
 ## 14 - Referência e Clonagem de Objetos (CONCLUÍDO)
     Em PHP, entender a diferença entre referência e clonagem de objetos é crucial para gerenciar como os objetos são manipulados na memória. Isso pode afetar o comportamento e o desempenho de suas aplicações.
 
     Referência de Objetos
-    Em PHP, quando você atribui um objeto a uma variável ou passa um objeto para uma função, você está manipulando uma referência para o objeto, e não uma cópia dele. Isso significa que qualquer alteração feita no objeto através de uma variável afetará todas as outras variáveis que referenciam o mesmo objeto.
+        Em PHP, quando você atribui um objeto a uma variável ou passa um objeto para uma função, você está manipulando uma referência para o objeto, e não uma cópia dele. Isso significa que qualquer alteração feita no objeto através de uma variável afetará todas as outras variáveis que referenciam o mesmo objeto.
 
 ## 15 - Tratamento de Exceções (CONCLUÍDO)
     O tratamento de exceções em PHP é uma técnica utilizada para gerenciar erros e condições excepcionais de forma controlada. Em vez de interromper a execução do script, as exceções permitem que o programa capture e lide com esses problemas, oferecendo uma maneira estruturada de gerenciar erros.
@@ -75,30 +75,31 @@
     A associação é um dos tipos de relacionamento entre objetos em programação orientada a objetos (OOP). Ela descreve como os objetos interagem uns com os outros e pode ser classificada em diferentes tipos, dependendo da natureza do relacionamento. Em PHP, a associação é implementada através da criação de instâncias de classes dentro de outras classes.
 
     Tipos de Associação
-    Associação Simples (Associação):
-    É um relacionamento onde um objeto é ligado a outro, mas ambos têm ciclos de vida independentes. Por exemplo, um "Cliente" pode estar associado a um "Endereço".
+        Associação Simples (Associação):
+        É um relacionamento onde um objeto é ligado a outro, mas ambos têm ciclos de vida independentes. Por exemplo, um "Cliente" pode estar associado a um "Endereço".
 
 ## 17 - Relação entre os objetos (Agregação) (CONCLUÍDO)
     A agregação é um dos tipos de relacionamento entre objetos em programação orientada a objetos (OOP). Ela descreve um relacionamento onde um objeto é composto por outros objetos, mas esses objetos componentes podem existir independentemente do objeto composto. Em PHP, a agregação é implementada criando instâncias de classes dentro de outras classes, onde os componentes agregados não dependem exclusivamente do ciclo de vida do objeto que os contém.
 
     Características da Agregação
-    Composição Fraca: Diferente da composição, na agregação os objetos podem existir independentemente do objeto agregado.
+        Composição Fraca: Diferente da composição, na agregação os objetos podem existir independentemente do objeto agregado.
 
     Relação de Parte-Todo: Um objeto (o todo) é composto por outros objetos (as partes).
     Independência: As partes podem existir fora do todo e podem ser compartilhadas com outros objetos.
-    Exemplo de Agregação em PHP
-    Cenário: Departamento e Funcionários
-    Vamos considerar um cenário onde um departamento pode ter vários funcionários, mas os funcionários podem existir independentemente do departamento. Esse é um exemplo clássico de agregação.
+        Exemplo de Agregação em PHP
+        Cenário: Departamento e Funcionários
+        Vamos considerar um cenário onde um departamento pode ter vários funcionários, mas os funcionários podem existir independentemente do departamento. Esse é um exemplo clássico de agregação.
 
 ## 18 - Relação entre os objetos (Composição) (CONCLUÍDO)
     A composição é um tipo de relacionamento entre objetos em programação orientada a objetos (OOP) onde um objeto é composto por outros objetos, mas, ao contrário da agregação, os objetos componentes não podem existir independentemente do objeto composto. Em PHP, a composição é implementada criando instâncias de classes dentro de outras classes, onde os componentes fazem parte do ciclo de vida do objeto que os contém.
 
     Características da Composição
-    Composição Forte: Os objetos componentes não podem existir sem o objeto composto.
-    Relação de Parte-Todo: Um objeto (o todo) é composto por outros objetos (as partes) que são destruídos junto com ele.
-    Dependência: As partes dependem completamente do ciclo de vida do todo.
+        Composição Forte: Os objetos componentes não podem existir sem o objeto composto.
+        Relação de Parte-Todo: Um objeto (o todo) é composto por outros objetos (as partes) que são destruídos junto com ele.
+        Dependência: As partes dependem completamente do ciclo de vida do todo.
+
     Exemplo de Composição em PHP
-    Cenário: Carro e Componentes (Motor, Rodas)
+        Cenário: Carro e Componentes (Motor, Rodas)
     Vamos considerar um cenário onde um carro é composto por um motor e várias rodas. Esses componentes não têm significado fora do contexto do carro e são destruídos junto com o carro.
 
 ## 19 - Métodos Mágicos (CONCLUÍDO)
@@ -126,7 +127,7 @@
     Composer é uma ferramenta de gerenciamento de dependências para PHP, projetada para facilitar a instalação e o gerenciamento de bibliotecas de terceiros em projetos PHP. Ele resolve muitos problemas comuns relacionados ao gerenciamento de dependências, como instalação, atualização, autoloading e resolução de conflitos de versão.
 
     Funcionalidades Principais  
-    Gerenciamento de Dependências: Composer permite declarar as dependências do seu projeto em um arquivo composer  .json. Ele resolve automaticamente as dependências e instala as bibliotecas necessárias.
+        Gerenciamento de Dependências: Composer permite declarar as dependências do seu projeto em um arquivo composer  .json. Ele resolve automaticamente as dependências e instala as bibliotecas necessárias.
 
     Autoloading: Composer gera automaticamente um autoloader PSR-4 para carregar classes automaticamente conforme   necessário, evitando a necessidade de incluir manualmente arquivos de classes.
 
@@ -147,7 +148,44 @@
 
     Atualização de Dependências: Execute composer update para atualizar todas as bibliotecas instaladas para suas   versões mais recentes compatíveis.
 
-## 21 - (CONCLUÍDO)
+## 21 - Variáveis de Ambiente e Servidor Embutido (CONCLUÍDO)
+    Variáveis de ambiente e o servidor embutido do PHP são recursos importantes que facilitam o desenvolvimento e a configuração de aplicativos PHP.
+
+    Variáveis de Ambiente
+        As variáveis de ambiente são valores dinâmicos que podem afetar o comportamento de processos em execução no sistema operacional. No contexto do PHP, as variáveis de ambiente são frequentemente usadas para configurar e personalizar aplicativos, como definir credenciais de banco de dados, configurar caminhos de arquivos e muito mais.
+
+    Alguns exemplos comuns de variáveis de ambiente no PHP incluem:
+
+    $_ENV: Um array associativo contendo as variáveis de ambiente definidas no ambiente onde o script está sendo executado.
+    
+    $_SERVER: Um array associativo contendo informações sobre o servidor web, como cabeçalhos HTTP, caminhos de arquivos e diretórios, informações de conexão e muito mais.
+
+    As variáveis de ambiente podem ser definidas no servidor web ou no arquivo de configuração do PHP (php.ini). Elas também podem ser definidas manualmente antes de executar um script PHP usando o comando export no Linux ou set no Windows.
+
+    Servidor Embutido do PHP
+        O servidor embutido do PHP é uma maneira conveniente de executar aplicativos PHP localmente durante o desenvolvimento, sem a necessidade de configurar um servidor web completo, como Apache ou Nginx.
+
+    Para iniciar o servidor embutido, você pode usar o seguinte comando no terminal:
+
+    Copiar código
+    php -S localhost:8000
+    Isso inicia o servidor embutido na porta 8000 do localhost. Você pode acessar seu aplicativo PHP navegando para http://localhost:8000 em seu navegador.
+
+    Uso de Variáveis de Ambiente com o Servidor Embutido
+    Ao usar o servidor embutido do PHP, você também pode definir variáveis de ambiente diretamente na linha de comando antes de iniciar o servidor. Por exemplo:
+
+    makefile
+    Copiar código
+    VAR1=valor1 VAR2=valor2 php -S localhost:8000
+    Isso define as variáveis de ambiente VAR1 e VAR2 com os valores valor1 e valor2, respectivamente, antes de iniciar o servidor embutido.
+
+    Benefícios
+        Simplifica o Desenvolvimento: O servidor embutido facilita o desenvolvimento local de aplicativos PHP sem a necessidade de configurar um servidor web completo.
+    Flexibilidade de Configuração: O uso de variáveis de ambiente permite configurar aplicativos PHP de forma flexível, sem modificar o código fonte, tornando-os mais portáteis e fáceis de implantar em diferentes ambientes.
+
+    Resumo
+        Variáveis de ambiente e o servidor embutido do PHP são recursos valiosos que simplificam o desenvolvimento e a configuração de aplicativos PHP. Eles fornecem flexibilidade e conveniência, permitindo personalizar e executar aplicativos PHP de maneira eficiente em diferentes ambientes. Dominar o uso desses recursos é fundamental para desenvolvedores PHP que desejam criar aplicativos robustos e escaláveis.
+
 ## 22 - (CONCLUÍDO)
 ## 23 - (CONCLUÍDO)
 ## 24 - (CONCLUÍDO)
