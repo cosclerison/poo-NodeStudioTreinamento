@@ -186,7 +186,40 @@
     Resumo
         Variáveis de ambiente e o servidor embutido do PHP são recursos valiosos que simplificam o desenvolvimento e a configuração de aplicativos PHP. Eles fornecem flexibilidade e conveniência, permitindo personalizar e executar aplicativos PHP de maneira eficiente em diferentes ambientes. Dominar o uso desses recursos é fundamental para desenvolvedores PHP que desejam criar aplicativos robustos e escaláveis.
 
-## 22 - (CONCLUÍDO)
+## 22 - Composer Init, Require e Update (CONCLUÍDO)
+    O Composer é uma ferramenta essencial para gerenciar dependências em projetos PHP. Ele simplifica o processo de instalação, atualização e remoção de bibliotecas de terceiros, garantindo que todas as dependências sejam gerenciadas de forma eficiente e sem conflitos de versão. Vamos explorar três comandos principais do Composer: init, require e update.
+
+    1. Composer Init
+        O comando composer init é usado para criar um novo arquivo composer.json em um projeto existente ou para iniciar um novo projeto PHP. Ele solicitará informações sobre o projeto, como nome, descrição, autor e dependências, e gerará um arquivo composer.json com base nessas informações.
+
+    Exemplo:
+
+    $ composer init
+
+    2. Composer Require
+        O comando composer require é usado para adicionar uma nova dependência ao projeto. Você precisa especificar o nome do pacote que deseja instalar. O Composer automaticamente resolve e instala todas as dependências necessárias e atualiza o arquivo composer.json e o arquivo composer.lock conforme necessário.
+
+    Exemplo:
+
+    $ composer require monolog/monolog
+
+    3. Composer Update
+        O comando composer update é usado para atualizar todas as dependências de um projeto PHP para suas versões mais recentes compatíveis. Ele lê as versões especificadas no arquivo composer.json e verifica se há atualizações disponíveis. Se uma atualização estiver disponível, o Composer atualiza as dependências para suas versões mais recentes compatíveis e atualiza o arquivo composer.lock.
+
+    Exemplo:
+
+    sql
+    $ composer update
+    
+    Resumo
+        composer init: Inicia um novo projeto PHP ou gera um arquivo composer.json em um projeto existente, solicitando informações sobre o projeto.
+    
+        composer require: Adiciona uma nova dependência ao projeto, resolve e instala automaticamente todas as dependências necessárias.
+    
+        composer update: Atualiza todas as dependências de um projeto para suas versões mais recentes compatíveis, de acordo com as especificações no arquivo composer.json.
+    
+        Esses comandos são fundamentais para o gerenciamento eficiente de dependências em projetos PHP. Eles permitem que os desenvolvedores instalem, atualizem e removam bibliotecas de terceiros de forma fácil e segura, garantindo que todas as dependências sejam gerenciadas de maneira adequada e eficiente.
+
 ## 23 - (CONCLUÍDO)
 ## 24 - (CONCLUÍDO)
 ## 25 - (CONCLUÍDO)
