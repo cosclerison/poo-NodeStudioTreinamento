@@ -7,7 +7,9 @@
  namespace App\Model;
 
  class Product {
-    private $id, $name, $description;
+    private $id;
+    private $name;
+    private $description;
 
     public function getId()
     {
